@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_default"
+        tools:context=".PompaActivity">
+
+        <Button
+            android:id="@+id/pompa_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="pompa_on"
+            android:background="@drawable/button_default"
+            android:textColor="#000000"
+            android:text="Pompa On" />
+        <Button
+            android:id="@+id/pompa_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="pompa_off"
+            android:background="@drawable/button_default"
+            android:textColor="#000000"
+            android:text="Pompa Off" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFAF0"
+            android:layout_marginTop="20dp"
+            android:text="Keadaan Pompa : "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/keadaan_pompa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#FFFAF0"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+    </LinearLayout>

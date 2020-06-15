@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_default"
+    tools:context="loginActivity">
+
+    <ImageView
+        android:id="@+id/image_view_icon_firebase_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/garden" />
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_icon_firebase_activity_main"
+        android:layout_marginTop="15dp"
+        android:hint="ID"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_icon_firebase_activity_main"
+        android:layout_marginTop="80dp"
+        android:hint="Password"
+        android:imeOptions="actionNext"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_default"
+            android:text="Login"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</RelativeLayout>

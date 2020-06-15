@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_default"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:text="Smart Garden"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:id="@+id/image_view_icon_firebase_activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/garden" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:text="Suhu : "
+            android:textAlignment="center"
+            android:textSize="30sp"
+
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/suhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="0dp"
+            android:text="Kelembaban Udara : "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/rh_udara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Kelembaban Tanah: "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/rh_tanah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitoring "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:id="@+id/addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:text="http://192.168.x.x" />
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_default"
+            android:textColor="#000000"
+            android:text="Connect CCTV" />
+
+<!--        <Button-->
+<!--            android:id="@+id/stPompa"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="42dp"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:onClick="st_pompa"-->
+<!--            android:background="@drawable/button_default"-->
+<!--            android:textColor="#000000"-->
+<!--            android:text="Pompa Setup" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/stMode"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="42dp"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:onClick="pompa_off"-->
+<!--            android:background="@drawable/button_default"-->
+<!--            android:textColor="#000000"-->
+<!--            android:text="Mode Setup" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:text="Keadaan Pompa : "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/keadaan_pompa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:text="Mode : "-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="30sp"-->
+<!--            android:gravity="center_horizontal" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/status_alat"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="-"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            tools:ignore="InvalidId" />-->
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_default"
+            android:textColor="#000000"
+            android:text="Sign Out" />
+    </LinearLayout>
+</ScrollView>
