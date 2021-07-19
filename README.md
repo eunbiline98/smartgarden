@@ -10,11 +10,11 @@ This tool can monitor air humidity, soil temperature and air and can maintain pl
 - FTDI FT232R USB Interface
 
 # Datasheet
-- ![image](https://user-images.githubusercontent.com/50385294/126102808-d04f5480-8159-482f-88ca-9c91f25d2d59.png) (Esp32-cam)
+- (Esp32-cam) ![image](https://user-images.githubusercontent.com/50385294/126102808-d04f5480-8159-482f-88ca-9c91f25d2d59.png)
 - https://www.tme.eu/Document/24f3427a9c2722c53c198fcd61cc5df0/MR009-004-1.pdf (Relay Module)
 - https://www.tme.eu/Document/24f3427a9c2722c53c198fcd61cc5df0/MR009-004-1.pdf (Soil Sensor)
 - https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf (DHT 22)
-- ![image](https://user-images.githubusercontent.com/50385294/126102182-be719eb5-ce52-4f20-b377-71edfbe1393a.png) (Solenoid Valve)
+- (Solenoid Valve) ![image](https://user-images.githubusercontent.com/50385294/126102182-be719eb5-ce52-4f20-b377-71edfbe1393a.png) 
 - https://www.sparkfun.com/datasheets/IC/FT232R_v104.pdf (FTDI FT232R)
 
 # Software
