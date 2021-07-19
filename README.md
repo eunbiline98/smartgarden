@@ -8,6 +8,7 @@ This tool can monitor air humidity, soil temperature and air and can maintain pl
 - DHT 22 Sensor
 - Solenoid Valve 220 VAC
 - FTDI FT232R USB Interface
+- PSU 5VDC 3A
 
 # Datasheet
 - (Esp32-cam) ![image](https://user-images.githubusercontent.com/50385294/126102808-d04f5480-8159-482f-88ca-9c91f25d2d59.png)
