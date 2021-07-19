@@ -40,7 +40,6 @@ This tool can monitor air humidity, soil temperature and air and can maintain pl
 
 - Layout App's Smart Garden
 ![Screenshot_20200611-102843](https://user-images.githubusercontent.com/50385294/126103146-278d2ae8-b366-4abb-882b-517f7bea89d0.png)
-![Screenshot_20200611-102848](https://user-images.githubusercontent.com/50385294/126103150-d1f33a18-a539-4a49-95a7-fdb8e0d7ea82.png)
 ![WhatsApp Image 2020-06-24 at 22 13 48](https://user-images.githubusercontent.com/50385294/126103153-672f11d8-1a5c-449f-bad3-31f26051feae.jpeg)
 
 - MockUp
